@@ -4,7 +4,7 @@ from flask_smorest import Api
 from resources.item import blue_print as ItemBluePrint
 from resources.store import blue_print as StoreBluePrint
 
-
+# app
 app = Flask(__name__)
 app.config['PROPAGATE_EXCEPTIONS'] = True
 app.config['API_TITLE'] = "Sores REST API"
